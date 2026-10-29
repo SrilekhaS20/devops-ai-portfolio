@@ -1,0 +1,141 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#06121b">
+  <meta name="description" content="Srilekha Senthilkumar — DevOps / Platform Engineer building reliable cloud infrastructure, automation, and AI-assisted operations.">
+  <title>Srilekha Senthilkumar | DevOps + AI</title>
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header">
+    <a class="brand" href="#home" aria-label="Srilekha Senthilkumar home"><span class="brand-mark">SS</span><span>Srilekha Senthilkumar</span></a>
+    <button class="menu-toggle" id="menuToggle" aria-label="Toggle navigation" aria-expanded="false">☰</button>
+    <nav class="nav" id="nav" aria-label="Main navigation">
+      <a href="#home">Home</a><a href="#projects">Projects</a><a href="#case-studies">Case studies</a><a href="#services">Services</a><a href="#about">About</a><a href="#contact">Contact</a>
+    </nav>
+    <a class="button button-outline header-cta" href="assets/resume-placeholder.txt" download>Resume template ↓</a>
+  </header>
+
+  <main id="main">
+    <section class="hero section-wrap" id="home">
+      <div class="hero-copy">
+        <p class="eyebrow"><span class="pulse"></span> DEVOPS + AI <span class="muted">/</span> SMARTER INFRASTRUCTURE</p>
+        <h1>I build reliable infrastructure and <span class="gradient-text">smarter operations.</span></h1>
+        <p class="hero-subtitle">DevOps / Platform Engineer · AWS · Kubernetes & OpenShift · Automation · AI for Operations</p>
+        <p class="body-copy">I help engineering teams improve deployment reliability, troubleshoot cloud-native systems, and turn repetitive operations into automation—with AI used thoughtfully where it adds value.</p>
+        <div class="chips"><span>AWS & Cloud</span><span>Kubernetes / OpenShift</span><span>CI/CD & Observability</span><span>AI-assisted Ops</span></div>
+        <div class="hero-actions"><a class="button button-primary" href="#projects">Explore projects <span>↗</span></a><a class="button button-ghost" href="#contact">Work with me <span>↗</span></a></div>
+        <p class="availability"><span class="status-dot"></span> Open to full-time roles, contracts and scoped freelance projects</p>
+      </div>
+      <div class="hero-visual" aria-label="Illustration of cloud operations dashboard">
+        <div class="orbit orbit-one"></div><div class="orbit orbit-two"></div>
+        <div class="visual-center"><div class="terminal-top"><i></i><i></i><i></i><span>ops-console / live-demo</span></div>
+          <div class="terminal-body"><p class="terminal-muted">$ kubectl get pods -A</p><p><span class="green">●</span> api-service <span class="green">Running</span></p><p><span class="green">●</span> payments <span class="green">Running</span></p><p><span class="amber">●</span> checkout <span class="amber">Investigating</span></p><div class="terminal-rule"></div><p class="terminal-muted">$ sre-copilot analyze --sample</p><p class="green">✓ Evidence collected</p><p class="green">✓ Next steps prepared</p></div>
+        </div>
+        <div class="floating-tag tag-top"><span class="tag-icon">⌘</span><span><b>Cloud-native</b><small>Operate with confidence</small></span></div>
+        <div class="floating-tag tag-bottom"><span class="tag-icon">✳</span><span><b>AI-assisted SRE</b><small>Human-approved actions</small></span></div>
+      </div>
+    </section>
+
+    <section class="proof-strip">
+      <div><span class="proof-icon">⌘</span><span><b>Production-minded</b><small>Enterprise DevOps experience</small></span></div>
+      <div><span class="proof-icon">⌁</span><span><b>Automation first</b><small>Reduce repetitive toil</small></span></div>
+      <div><span class="proof-icon">◈</span><span><b>Evidence-led</b><small>Document decisions and trade-offs</small></span></div>
+      <div><span class="proof-icon">↗</span><span><b>Business focused</b><small>Reliable, scalable delivery</small></span></div>
+    </section>
+
+    <section class="section-wrap section" id="projects">
+      <div class="section-heading"><div><p class="eyebrow">FEATURED PROJECTS</p><h2>Practical tools. Real engineering thinking.</h2><p class="section-intro">Independent portfolio projects using safe sample data. Each project will include source code, setup instructions, tests and design decisions.</p></div><span class="section-count">01 — 03</span></div>
+      <div class="project-grid">
+        <article class="project-card featured-card">
+          <div class="card-topline"><span class="project-number">PROJECT 01</span><span class="tag">Interactive demo</span></div>
+          <h3>AI SRE Copilot</h3><p class="stack">Python · Prometheus concepts · Kubernetes · AI-ready</p>
+          <p>An incident investigation assistant that analyzes simulated alerts and log evidence, suggests likely causes, and drafts a safe investigation plan.</p>
+          <div class="mini-dashboard">
+            <div class="mini-head"><span>INC-1042 / CHECKOUT API</span><span class="severity">● SEV-2 SIMULATED</span></div>
+            <div class="metric-row"><span>5xx error rate</span><b>18.4%</b><span class="metric-bad">Elevated</span></div>
+            <div class="metric-row"><span>p95 latency</span><b>4.8 s</b><span class="metric-bad">Elevated</span></div>
+            <div class="metric-row"><span>Evidence sources</span><b>3</b><span class="metric-good">Collected</span></div>
+          </div>
+          <div class="card-actions"><a class="button button-primary button-small" href="#sre-demo">Try live demo ↘</a><a class="text-link" href="#case-studies">Approach & evidence →</a></div>
+        </article>
+        <article class="project-card">
+          <div class="card-topline"><span class="project-number">PROJECT 02</span><span class="tag tag-muted">Platform engineering</span></div>
+          <h3>Self-service deployment platform</h3><p class="stack">GitHub Actions · Docker · Terraform · Kubernetes</p>
+          <p>A reproducible delivery path with CI checks, image build, infrastructure-as-code patterns, health checks and a rollback plan.</p>
+          <div class="pipeline" aria-label="Example deployment stages"><span>Commit</span><b>→</b><span>Test</span><b>→</b><span>Build</span><b>→</b><span>Deploy</span></div>
+          <ul class="check-list"><li>Policy checks before deployment</li><li>Health-gated release and rollback notes</li><li>Architecture and cost assumptions documented</li></ul>
+          <div class="card-actions"><a class="text-link" href="#contact">Discuss a platform build →</a></div>
+        </article>
+        <article class="project-card">
+          <div class="card-topline"><span class="project-number">PROJECT 03</span><span class="tag tag-muted">Startup value</span></div>
+          <h3>Cloud cost & reliability advisor</h3><p class="stack">AWS concepts · Python · FinOps · AI-ready</p>
+          <p>A sample-data analyzer that highlights potential idle resources, missing safeguards and prioritized reliability improvements.</p>
+          <div class="cost-preview"><div><small>Sample resources reviewed</small><b>24</b></div><div><small>Recommendations</small><b>06</b></div><div><small>Potential savings</small><b>Estimate only</b></div></div>
+          <p class="fine-print">Illustrative UI only—no live AWS account is connected and no savings are claimed.</p>
+          <div class="card-actions"><a class="text-link" href="#services">Explore service options →</a></div>
+        </article>
+      </div>
+    </section>
+
+    <section class="section-wrap section section-dark" id="sre-demo">
+      <div class="section-heading"><div><p class="eyebrow">INTERACTIVE LAB · SYNTHETIC DATA</p><h2>AI SRE Copilot: incident triage simulator</h2><p class="section-intro">Choose a simulated incident to see a rule-based analysis, evidence and recommended next steps. This demo runs in your browser; it does not call an AI API or connect to production systems.</p></div><span class="demo-status"><span class="status-dot"></span> Local demo</span></div>
+      <div class="demo-layout">
+        <div class="demo-controls">
+          <label for="incidentSelect">Select a sample incident</label>
+          <select id="incidentSelect">
+            <option value="latency">Checkout API — elevated 5xx and latency</option>
+            <option value="crashloop">Kubernetes pod — CrashLoopBackOff</option>
+            <option value="disk">Node filesystem — disk pressure</option>
+          </select>
+          <label for="contextInput">Optional investigation context</label>
+          <textarea id="contextInput" rows="4" maxlength="500" placeholder="Example: started after the latest deployment; one replica is healthy."></textarea>
+          <button class="button button-primary" id="analyzeButton" type="button">Analyze sample incident <span>→</span></button>
+          <p class="fine-print">Do not enter credentials, customer data or confidential logs.</p>
+        </div>
+        <div class="demo-output" aria-live="polite" aria-atomic="true">
+          <div class="output-header"><span class="output-pulse"></span><b>Investigation brief</b><span class="output-label">RULE-BASED SAMPLE</span></div>
+          <div id="demoResult"><p class="output-placeholder">Select an incident and run the analysis to generate a structured triage brief.</p></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section-wrap section" id="case-studies">
+      <div class="section-heading"><div><p class="eyebrow">CASE STUDIES</p><h2>Engineering work, explained with evidence.</h2><p class="section-intro">Selected themes from my professional experience. Confidential production details are intentionally excluded.</p></div></div>
+      <div class="case-grid">
+        <article class="case-card"><span class="case-icon">⌁</span><h3>Observability & alert noise</h3><p>Prometheus rules, Alertmanager routing, Grafana dashboards and Python webhook automation.</p><p class="case-outcome">Reported outcomes to validate before publishing: lower notification volume and faster detection.</p><a href="#contact" class="text-link">Discuss the approach →</a></article>
+        <article class="case-card"><span class="case-icon">◈</span><h3>OpenShift & Kubernetes operations</h3><p>Cluster health, workload troubleshooting, RBAC, secrets, rollout checks and operational runbooks.</p><p class="case-outcome">Focus: safer triage, repeatable procedures and service reliability.</p><a href="#contact" class="text-link">Discuss the approach →</a></article>
+        <article class="case-card"><span class="case-icon">⌘</span><h3>Secrets management automation</h3><p>Python automation patterns and AWS Secrets Manager for controlled secrets workflows.</p><p class="case-outcome">Focus: reducing manual steps and improving consistency without exposing secrets.</p><a href="#contact" class="text-link">Discuss the approach →</a></article>
+        <article class="case-card"><span class="case-icon">↗</span><h3>CI/CD & deployment reliability</h3><p>Pipeline checks, rollout verification, troubleshooting and clear recovery procedures.</p><p class="case-outcome">Focus: repeatable releases and faster diagnosis of failed deployments.</p><a href="#contact" class="text-link">Discuss the approach →</a></article>
+      </div>
+      <p class="notice"><b>Portfolio integrity:</b> Add exact before/after metrics only when you can substantiate them and are permitted to disclose them. Separate personal demos from work performed for an employer.</p>
+    </section>
+
+    <section class="section-wrap section" id="services">
+      <div class="section-heading"><div><p class="eyebrow">HOW I CAN HELP</p><h2>Focused services for lean engineering teams.</h2><p class="section-intro">Start with a clearly scoped assessment or prototype. Deliverables and access boundaries are agreed before work begins.</p></div></div>
+      <div class="services-grid">
+        <article class="service-card"><span>01</span><h3>CI/CD pipeline review</h3><p>Findings report, prioritized improvements, test gates and release-safety recommendations.</p></article>
+        <article class="service-card"><span>02</span><h3>Kubernetes troubleshooting</h3><p>Diagnostic notes, evidence-based root-cause hypotheses and a remediation checklist.</p></article>
+        <article class="service-card"><span>03</span><h3>Monitoring & alerting</h3><p>Starter dashboards, alert rules, notification routing and actionable runbooks.</p></article>
+        <article class="service-card"><span>04</span><h3>AWS / Terraform automation</h3><p>Small reusable modules, setup documentation, validation tests and cost assumptions.</p></article>
+        <article class="service-card"><span>05</span><h3>AI-assisted DevOps prototype</h3><p>Safe log summarization, incident-report drafting or pipeline-failure explanation with human review.</p></article>
+      </div>
+    </section>
+
+    <section class="section-wrap section about-section" id="about">
+      <div class="about-copy"><p class="eyebrow">ABOUT ME</p><h2>Curious engineer. Practical builder.</h2><p>I'm a DevOps / Platform Engineer with nearly five years of experience across AWS, OpenShift/Kubernetes, CI/CD, monitoring and automation in enterprise environments.</p><p>I enjoy understanding failure modes, improving operational workflows and building tools that help engineers make better decisions. I'm now extending that foundation with practical AI-assisted operations and reusable platform engineering projects.</p><div class="about-links"><a href="https://www.linkedin.com/in/srilekha-senthilkumar/" target="_blank" rel="noreferrer">LinkedIn ↗</a><a href="https://github.com/SrilekhaS20" target="_blank" rel="noreferrer">GitHub ↗</a></div></div>
+      <div class="skills-panel"><p class="eyebrow">TECH TOOLKIT</p><div class="skill-group"><h3>Cloud & platform</h3><div class="skill-chips"><span>AWS</span><span>OpenShift</span><span>Kubernetes</span><span>Docker</span><span>Helm</span></div></div><div class="skill-group"><h3>Automation & delivery</h3><div class="skill-chips"><span>Terraform</span><span>Jenkins</span><span>GitHub Actions</span><span>Ansible</span><span>Python</span><span>Bash</span></div></div><div class="skill-group"><h3>Observability & systems</h3><div class="skill-chips"><span>Prometheus</span><span>Grafana</span><span>Alertmanager</span><span>Splunk</span><span>Linux</span><span>Git</span></div></div><p class="fine-print">Skill labels describe areas of experience; depth varies by tool. Project READMEs will specify what is implemented hands-on.</p></div>
+    </section>
+
+    <section class="contact-section" id="contact">
+      <div class="section-wrap contact-inner"><div><p class="eyebrow">LET'S BUILD SOMETHING USEFUL</p><h2>Have a platform challenge or role in mind?</h2><p>I'm open to DevOps / Platform Engineering roles, contracts and scoped freelance engagements. Chennai and remote India are preferred; open to other locations for the right opportunity.</p></div><div class="contact-actions"><a class="button button-primary" href="mailto:lekhaconst.1@gmail.com?subject=DevOps%20%2F%20Platform%20Engineering%20Opportunity">Email me ↗</a><button class="button button-ghost" id="copyEmail" type="button">Copy email</button><p id="copyStatus" class="fine-print" aria-live="polite">lekhaconst.1@gmail.com</p></div></div>
+    </section>
+  </main>
+  <footer class="site-footer"><a class="brand" href="#home"><span class="brand-mark">SS</span><span>Srilekha Senthilkumar</span></a><p>Build · Automate · Improve</p><p>© <span id="year"></span> Srilekha Senthilkumar</p></footer>
+  <script src="script.js"></script>
+</body>
+</html>
